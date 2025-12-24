@@ -1,2 +1,0 @@
-# MyScoreCDM
-for data transmission
