@@ -1,0 +1,10 @@
+INFO:root:avg_epoch_loss:0.9874360616269865, epoch:0
+INFO:root:avg_epoch_loss:0.9708304097385783, epoch:1
+INFO:root:avg_epoch_loss:0.9672073232369465, epoch:2
+INFO:root:avg_epoch_loss:0.9614579306359876, epoch:3
+INFO:root:avg_epoch_loss:0.9574502556208979, epoch:4
+INFO:root:avg_epoch_loss:0.9553772551579434, epoch:5
+INFO:root:avg_epoch_loss:0.9547219998611692, epoch:6
+INFO:root:avg_epoch_loss:0.9540854274834457, epoch:7
+INFO:root:avg_epoch_loss:0.9533393896070489, epoch:8
+INFO:root:avg_epoch_loss:0.9530079250403664, epoch:9

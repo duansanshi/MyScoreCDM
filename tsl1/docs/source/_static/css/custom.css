@@ -1,0 +1,113 @@
+a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+/*  Header  */
+
+section#torch-spatiotemporal h1 {
+    display: none;
+}
+
+#particles-js {
+    z-index: -30;
+    position: relative;
+    height: 18rem;
+}
+
+.hero-content {
+    position: absolute;
+    width: 65%;
+    min-width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0 0 20px var(--color-background-primary));
+    z-index: 20;
+    text-align: center;
+}
+
+.hero-lead {
+    font-size: 120%;
+    font-weight: 300;
+}
+
+.hero-shade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), var(--color-background-primary));
+    z-index: 10;
+}
+
+.particles-js-canvas-el {
+    opacity: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 736px) {
+    #particles-js {
+        height: 15rem;
+    }
+
+    .hero-lead {
+        font-size: 100%;
+    }
+}
+
+.carousel-logo {
+    background: unset;
+    box-shadow: unset !important;
+    border: unset !important;
+    width: 50px !important;
+    margin: auto;
+    filter: contrast(0);
+    transition-duration: 0.3s;
+}
+
+.carousel-logo:hover {
+    filter: unset;
+    transform: unset;
+}
+
+table.docutils {
+    box-shadow: unset;
+}
+
+table.docutils caption {
+    font-size: var(--font-size--normal);
+    caption-side: bottom;
+    margin-top: 1rem;
+}
+
+.caption-number {
+    font-weight: 600;
+    margin-right: 0.3rem;
+}
+
+code.literal {
+    font-weight: 600;
+}
+
+#furo-sidebar-ad-placement {
+    display: none;
+}
+
+/* Logos */
+
+img.inline-logo {
+    display: inline-block;
+    width: 1.2em;
+    vertical-align: text-top;
+}
+
+img.inline-logo.with-text {
+    margin-right: .2em;
+}
+
+img.inline-logo.tsl {
+    width: 1.3em;
+}

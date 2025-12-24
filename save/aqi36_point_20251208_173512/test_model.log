@@ -1,0 +1,10 @@
+INFO:root:model_name=
+INFO:root:rmse_total=54.94941141973663
+INFO:root:mae_total=34.929307194271296
+INFO:root:batch_no=1
+INFO:root:rmse_total=41.94817845551254
+INFO:root:mae_total=23.895571763286934
+INFO:root:batch_no=2
+INFO:root:rmse_total=33.687885628956735
+INFO:root:mae_total=18.27716235600107
+INFO:root:batch_no=3
